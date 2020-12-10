@@ -1,6 +1,6 @@
 {
   "name": "@hapipal/create",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Better known as `npm init @hapipal`",
   "bin": {
     "create": "./bin/create"
