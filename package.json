@@ -1,0 +1,21 @@
+{
+  "name": "@hapipal/create",
+  "version": "0.0.1",
+  "description": "Better known as `npm init @hapipal`",
+  "bin": {
+    "create": "./bin/create"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapipal/create.git"
+  },
+  "author": "Devin Ivy <devin@bigroomstudios.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hapipal/create/issues"
+  },
+  "homepage": "https://github.com/hapipal/create#readme",
+  "dependencies": {
+    "hpal": "2.x.x"
+  }
+}
