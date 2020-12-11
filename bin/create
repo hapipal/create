@@ -1,3 +1,9 @@
-#!/usr/bin/env bash
+#!/usr/bin/env node
+'use strict';
 
-exec "${BASH_SOURCE[0]%/*}"/../node_modules/hpal/bin/hpal new "$@"
+const ChildProcess = require('child_process');
+const hpal = require.resolve('hpal/bin/hpal');
+
+ChildProcess.spawn(hpal, ['new', ...process.argv.slice(2)], {
+    stdio: 'inherit'
+});
